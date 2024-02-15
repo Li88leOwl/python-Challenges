@@ -3,6 +3,7 @@
 #if a number is divisible bt 5 print(buzz)
 #if a number is divisble by both 3 & 5 print(fizzbuzz)
 #fizz buzz challenge 
+import time
 choice = int(input("Enter you're number of choice: "))
 def fizzbuzz(choice):
 
@@ -16,5 +17,6 @@ def fizzbuzz(choice):
     
     else:
         print(num)
-
+print("Initiating Program.......")
+time.sleep(5)
 fizzbuzz(choice)
