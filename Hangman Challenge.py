@@ -3,7 +3,9 @@
 #make the program take input from the user and make it lowecase
 #check if the letter is in the word 
 import random
+import time
 print("Welcome to Hangman!")
+time.sleep(5)
 words = ["random", "bounty", "hacker"]
 secret_word = random.choice(words)
 print("You only get 5 guesses")
