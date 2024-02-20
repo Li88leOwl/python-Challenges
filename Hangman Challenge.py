@@ -5,7 +5,7 @@
 import random
 import time
 print("Welcome to Hangman!")
-time.sleep(5)
+time.sleep(2)
 words = ["random", "bounty", "hacker"]
 secret_word = random.choice(words)
 print("You only get 5 guesses")
