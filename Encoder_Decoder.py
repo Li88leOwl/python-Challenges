@@ -10,7 +10,7 @@ def encrypt_pass(password):
 user_pass = input("Enter your password: ")
 encrypt_pass(user_pass)
 
-#Decoder
+#Decoder with the same import base64
 def decode_pass(password):
     decode_bytes = base64.b64decode(password)
     decode_data = decode_bytes.decode()
